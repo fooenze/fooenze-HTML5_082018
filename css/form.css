@@ -1,0 +1,68 @@
+/*
+CSS to be used by contact.html
+*/
+
+.column1 {
+    float: left;
+    padding: 10px;
+    height: 80%;
+    background-color: none;
+    margin: 5px;
+}
+
+.containerleft, .containerright {
+    width: 12%;
+}
+
+.containermiddle {
+    width: 65%;
+}
+
+.formlabel {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+.formcss {
+    width: 50%;
+    padding: 12px;
+    margin: 8px;
+    border: 2px dotted #fd8f31;
+    border-radius: 22px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .formlabel {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 18px;
+    }
+
+    .formcss {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 14px 14px 14px 14px;
+    }
+}
+
+.formbutton {
+    background-color:#fc4e51;
+    color: white;
+    padding: 14px 22px 14px 22px;
+    border: none;
+    border-radius: 22px;
+    float: none;
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    margin: 0px;
+    ;
+}

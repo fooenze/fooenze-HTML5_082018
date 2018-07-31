@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #333333;
+}
+
+a:link {
+    font-family: 'Roboto Mono', monospace;
+    color: #912c2c;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #fc4e51;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:visted {
+    color: #fc4e51;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.topnav {
+    background-color: #fccf3f;
+    overflow: hidden;
+    border-radius: 10px;   
+
+}
+
+.topnav a {
+    float: left;
+    color: #912c2c;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ffe183;
+    color: #fc4e51;
+}
+
+.topnav a.active {
+    background-color: #ffe183;
+    color: #fd8f31;
+}
+
+.topnav input[type=text]{
+    float: right;
+    padding: 10px;
+    margin-top: 12px;
+    margin-right: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top-left-radius: 20px;    
+    border-top-right-radius: 20px;    
+    border-bottom-left-radius: 20px;  
+    border-bottom-right-radius: 20px;   
+    border: 2px dotted #fd8f31;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+}
+
+.topnav .search-container button {
+    background: #fd8f31;
+    float: right;
+    padding: 10px;
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+    border-top-left-radius: 20px;    
+    border-top-right-radius: 20px;    
+    border-bottom-left-radius: 20px;    
+    border-bottom-right-radius: 20px;    
+    border: 0px; 
+}
+
+.topnav .search-container button:hover {
+    background: #ffe183;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    color: #585858;
+}
+
+.footer a {
+    padding: 22px 10px;
+    text-decoration: none;
+    color: #912c2c;
+}
+
+
+.bottomrow {
+        content: "";
+        display: block;
+        clear: both;
+}
+
+.bottomcolumn {
+    text-align: center;
+    padding: 10px;}
+
+.row {
+    background-color: #ffe183;
+    border-radius: 10px;
+    padding:  20px 20px 20px 20px;
+    margin:  20px 0px 20px 0px;    
+}
+
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.column {
+    float: left;
+    background-color: cyan;
+}
+
+.left {
+    width: 15%;
+    text-align: center;
+}
+
+.right {
+    width: 75%;
+    margin: 0px 30px 0px 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+.lastdiv {
+    margin-bottom: 150px;
+}
+
+#fb, #ig, #tw {
+    margin: 0px;
+}
+
+.roworigin {
+    background-color: #ffe183;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    clear: both;
+}
+
+.twocolumn {
+    float: left;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+
+}
+
+table {
+    width: 100%;
+    border: 1px solid #333333;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 7px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fccf3f;
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 14px 14px 14px 14px;
+    }
+}
