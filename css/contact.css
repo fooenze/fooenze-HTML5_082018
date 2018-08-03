@@ -16,12 +16,13 @@
 }
 
 .contact_form select {
-    width: 400px;
+    width: 430px;
+    height: 50px;
 }
 
 .contact_form input, .contact_form textarea {
     border: 1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0px 10px 15px #eee inset;
+    box-shadow: 0px 0px 2px #ccc, 0px 10px 15px #eee inset;
     border-radius: 5px;
     padding-right: 15px;
     -moz-transition: padding .3s;
@@ -32,7 +33,7 @@
 .contact_form input:focus, .contact_form textarea:focus {
     background: #ffffff;
     border: 1px solid #555;
-    box-shadow: 0px 0px 3px #aaa;
+    box-shadow: 0px 0px 2px #aaa;
     padding-right: 50px;
 }
 
@@ -42,12 +43,15 @@
 
 .contact_form input:valid, .contact_form textarea:valid {
     background: #ffffff url('../images/valid.png') no-repeat 98% center;
-    border-color: greenyellow;
+    border-radius: 20px;
+    border: 2px dotted #afe26c;
 }
 
 .contact_form input:invalid, .contact_form textarea:invalid {
     background: #ffffff url('../images/invalid.png') no-repeat 98% center;
-    border-color: red;
+    border-color: #fd8f31;
+    border-radius: 20px;
+    border: 2px dotted  #fd8f31;
 }
 
 .contact_form input:focus + .form_hint {
@@ -62,7 +66,7 @@
 
 .form_hint {
     font-size: 10px;
-    background: #d45252;
+    background: #fd8f31;
     border-radius: 3px 3px 3px 3px;
     color: yellow;
     margin-left: 5px;
@@ -74,7 +78,7 @@
 .form_hint:before {
     content:"\25C0";
     position: absolute;
-    color: #d45252;
+    color: #fd8f31;
     top: 1px;
     left: -6px;
 }
